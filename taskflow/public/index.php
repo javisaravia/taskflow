@@ -43,7 +43,7 @@ switch ($accion) {
         ];
 
         // Cargamos la vista del dashboard
-        include '../app/views/tareas.view.php';
+        include '../app/views/tareas.views.php';
         break;
 
     case 'logout':
